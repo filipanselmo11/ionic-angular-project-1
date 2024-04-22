@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>alert</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-button id="present-alert">
+    Click Me
+  </ion-button>
+  <ion-alert trigger="present-alert" header="Please enter your info" [buttons]="alertButtons"
+    [inputs]="alertInputs"></ion-alert>
+
+</ion-content>

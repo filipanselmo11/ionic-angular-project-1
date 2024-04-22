@@ -18,4 +18,8 @@ export const routes: Routes = [
     path: 'accordion',
     loadComponent: () => import('./pages/accordion/accordion.page').then( m => m.AccordionPage)
   },
+  {
+    path: 'alert',
+    loadComponent: () => import('./pages/alert/alert.page').then( m => m.AlertPage)
+  },
 ];
